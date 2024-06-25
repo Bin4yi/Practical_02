@@ -23,7 +23,11 @@ object question02{
     var k:Float = 4.3f
 
     def evaluateA():Int={
-        b*a+c*d
+        b-=1
+        var temp=b*a
+        var d_new=d
+        d -=1;
+        (temp) +(c*d_new ) 
     }
 
     def evaluateB():Int={
